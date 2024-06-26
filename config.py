@@ -41,7 +41,7 @@ GIT_TOKEN = getenv(
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GAURAV_BOTS")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/INFINITE_EMPIRE")
-GBAN_LOG = getenv("GBAN_LOGS", "https://t.me/CUTIE_GBAN")
+GBAN_LOG = getenv("GBAN_LOG", "https://t.me/CUTIE_GBAN")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
